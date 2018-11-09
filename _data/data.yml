@@ -3,124 +3,100 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Jack Chi  
-    tagline: Fullstack Engineer
+    tagline: Software Engineer
     avatar: jackchi.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jack@jackchi.org
-    website: blog.jackchi.org #do not add http://
+    website: www.jackchi.org #do not add http://
     linkedin: jackchi
     github: jackchi
     twitter: '@_jackchi_'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Chinese-Mandarin
+        level: Native
         
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
       - item: Cooking
-        link:
+        link: cooking.jackchi.org
+
+      - item: Meditation
+        link: meditation.jackchi.org
+
+      - item: Travel
+        link: travel.jackchi.org
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Full stack engineer since high school. 
 
-      Second paragraph if required.
+      My passion in computing started with designing a Star Trek customizable card game. 
+      Academic training in computer science with research experience in security exploits of Bayesian machine learners.
+      2 years of frontend development experience, managing social media campaign during sabbatical travling around the world.
+      4 years of industry experience in cloud computing, testing automations, IoT connectivity and project management.
+
+      Currently building a scalable Commerce Platform at Yelp.
 
 education:
     - degree: BASE, Berkeley-Haas
       university: UC Berkeley
-      time: 2007 - 2008
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
-
+      time: 2008
+      
+    - degree: BA in Computer Science
+      university: Rice University
+      time: 2003 - 2007
+      
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: 2018 - Present
+      company: Yelp, San Francisco.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Revenue Team is part of the Commerce Platform at Yelp.
+        Responsible for orchestration of the ordering of revenue generating products at Yelp. 
+        Other teams at Yelp depend on our systems to set up subscription based products.
+          - Yelp Ads Subscriptions
+          - Financial Reporting
+          - Billing, Invoicing and Accounting
 
-          - Bullet point
-          - Bullet point 
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Software Engineer, Lead
+      time: 2017 - 2018
+      company: SmartThings,Samsung, Mountain View.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Responsible for the end-to-end device Integration on the Works With SmartThings platform.
+        Worked closely with cross-functional teams in different geographic regions:
+          - Bay Area (Design, Biz-dev)
+          - Bangalore (Development)
+          - Korea (Strategy)
+          - Poland (Quality)
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Software Engineer
+      time: 2015 - 2017
+      company: SmartThings,Samsung, Mountain View.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Engineering a distributed, service-oriented architecture for connecting IoT devices to the SmartThings cloud.
+        Built a real-time video streaming platform on the SmartThings OpenPlatform.
+        Outreach to the developer community with events and coding demonstrations.
+          - Video streaming platform on Node.js (Hub and Cloud)
+          - Device health monitoring with Kafka
 
-          - Bullet point
-          - Bullet point
+    - role: Softare Engineer
+      time: 2014
+      company: Wireless Glue Networks
+      details: |
+        Built a demand-response energy platform used by IBM's Japanese consumer business division.
+        Responsible for certifying the platform on the OpenADR 2.0 IEEE standards.
+        Developed a suite of integration tests across international standards. 
+
 
 projects:
     title: Projects
@@ -130,67 +106,54 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Traveling Around the World
+        tagline: "Traveled to 25+ countries to experience and document the fascinating oddities of nature and culture around the world."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Ace Monster Toys
+        tagline: "A Bay Area hackerspace for technology enthusiasts. We focus on electronics and machining. Taught Python classes."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Black Rock Transit
+        link: "#bm2010"
+        tagline: "A Burning Man 2010 Art Car. MUNI articulated bus in the Playa."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Research papers published during my stint at the RADLab, UC Berkeley. Our focus is on exploiting machine learners that get appplied everyday in common applications.
+      For example, we attacked spam filters' Bayesian learners with a little bit of social engineering and exploiting known vulnerabilitiy vectors. 
+      Our work culminated in a book chapter of "Misleading Learners"
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Open Problems in the Security of Learning.
+        authors: Blaine Nelson, Marco Barreno, Peter L. Bartlett, Jack Chi, Anthony D. Joseph, Benjamine I.P. Rubinstein, Udam Saini, J.D. Tygar
+        conference: The First ACM Workshop on AISec, 2008
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Exploiting Machine Learning to Subvert Your Spam Filter
+        authors: Blaine Nelson, Marco Barreno, Jack Chi, Anthony D. Joseph, Benjamine I.P. Rubinstein, Udam Saini, Charles Sutton, J.D. Tygar, and Kai Xia
+        conference: USENIX, LEET 2008
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Misleading learners - Co-opting your spam filter
+        authors: Blaine Nelson, Marco Barreno, Jack Chi, Anthony D. Joseph, Benjamin I. P. Rubinstein, Udam Saini, Charles Sutton, J. D. Tygar, Kai Xia. 
+        conference: Comp. Sci. Div., Soda Hall 2009
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python & PaaSTA
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: MySQL & Redis
+        level: 87%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Groovy & Java & Scala
+        level: 82%
+
+      - name: Javascript & HTML5
+        level: 80%
+
+      - name: ZigBee & Z-Wave & IoT
+        level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    You had me at Aloha 2018 <i class="fas fa-rainbow"></i>
