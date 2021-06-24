@@ -12,7 +12,7 @@ sidebar:
     avatar: jackchi.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: jack@jackchi.org
+#    email: jack@jackchi.org
     website: www.jackchi.org #do not add http://
     linkedin: jackchi
     github: jackchi
@@ -29,11 +29,8 @@ sidebar:
       - item: Food
         link: https://www.instagram.com/cooking.jackchi
         
-      - item: Travel
-        link: https://travel.jackchi.org
-
       - item: Annapurna Circuit
-        link: https://annapurna.jackchi.org
+        link: https://simplesimpledimple.blogspot.com/
 
       - item: Fire Hydrants
         link: https://fire-hydrants.tumblr.com
@@ -41,14 +38,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      San Francisco based backend software engineer. 
+      Backend Software Engineer.
+      8 years of industry experience. 2 years of research experience.
 
-      I specialize in data engineering; experience with ETL pipelines. Good at working with stakeholders to meet their needs.      
-      I have academic training in computer science with research experience in security exploits of Bayesian machine learners.
-      2 years of frontend development experience, managing social media campaign during sabbatical travling around the world.
-      5 years of industry experience in cloud computing, testing automations, IoT connectivity and project management.
-
-      Currently building a scalable Commerce Platform at Yelp.
+      Currently working on the platform team at Fieldwire.
 
 education:
     - degree: BASE, Berkeley-Haas
@@ -60,8 +53,24 @@ education:
       time: 2003 - 2007
       
 experiences:
+    - role: Senior Software Engineer
+      time: 06/2020 - Present
+      company: Fieldwire, San Francisco.
+      details: |
+        Platform Team.
+
+        Responsible for the performance, security, scalability of the Fieldwire cloud platform.
+          - Ruby on Rails, Postgres, AWS.
+          - Worked on Open API documentation and testing framework
+          - Implemented defensive measures against faulty and malicious API clients.
+          - Integrated with new Stripe Invoicing systems.
+          - Improved Postgres database performance.
+          - Setup BigQuery for data warehousing.
+          - Onboards new engineers and oncall rotations.
+
+
     - role: Software Engineer
-      time: 01/2018 - Present
+      time: 01/2018 - 05/2020
       company: Yelp, San Francisco.
       details: |
         Commerce-Data Team.
@@ -162,4 +171,4 @@ skills:
         level: 75%
 
 footer: >
-    You had me at Aloha 2018 <i class="fas fa-rainbow"></i>
+    You had me at Aloha 2021 <i class="fas fa-rainbow"></i>
